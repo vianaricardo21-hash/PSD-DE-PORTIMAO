@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSD Portimão - Orgãos Sociais e Mural</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <header class="bg-[#F68B1F] text-white shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-2xl font-bold tracking-tight">PSD <span class="font-light text-white/90">Portimão</span></h1>
+                <p class="text-[10px] uppercase tracking-widest opacity-80">Distrital: Faro | Concelhia: Portimão</p>
+            </div>
+            <nav class="space-x-6 hidden md:block">
+                <a href="#mural" class="hover:underline text-sm font-medium">Mural</a>
+                <a href="#comissao" class="hover:underline text-sm font-medium">Comissão Política</a>
+                <a href="#assembleia" class="hover:underline text-sm font-medium">Assembleia</a>
+                <a href="https://www.psd.pt/pt/povo-livre" target="_blank" class="bg-white text-[#F68B1F] px-3 py-1 rounded font-bold text-xs hover:bg-gray-100 transition">POVO LIVRE</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 flex flex-col lg:flex-row gap-12">
+        
+        <div class="lg:w-2/3">
+            
+            <section id="mural" class="mb-16">
+                <h2 class="text-3xl font-bold border-l-8 border-[#F68B1F] pl-4 mb-8 uppercase tracking-tight">Mural de Atividade</h2>
+                
+                <div class="space-y-12">
+                    
+                    <article class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100">
+                        <div class="aspect-video bg-black">
+                            <video class="w-full h-full object-cover" controls poster="imagens/capa_video_intervencao.jpg">
+                                <source src="videos/intervencao_presidente.mp4" type="video/mp4">
+                                O seu navegador não suporta a reprodução de vídeo.
+                            </video>
+                        </div>
+                        <div class="p-6">
+                            <span class="text-[10px] font-bold text-orange-500 uppercase tracking-widest">Vídeo Local / Intervenção</span>
+                            <h3 class="text-xl font-bold mt-2 mb-3 text-blue-900">Mensagem da Presidente aos Militantes</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                Assista à mensagem direta da nossa Presidente Maria Alexandra Rodrigues Evangelista sobre os próximos desafios do PSD em Portimão.
+                            </p>
+                            <div class="mt-4 pt-4 border-t border-gray-50 flex items-center text-gray-400 text-[11px]">
+                                <i class="far fa-calendar-alt mr-2"></i> Portimão, 2026
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100">
+                        <img src="imagens/reuniao_sede.jpg" alt="Evento PSD" class="w-full h-[400px] object-cover">
+                        <div class="p-6">
+                            <span class="text-[10px] font-bold text-orange-500 uppercase tracking-widest">Fotografia / Evento</span>
+                            <h3 class="text-xl font-bold mt-2 mb-3 text-blue-900">Trabalho de Proximidade</h3>
+                            <p class="text-gray-600 leading-relaxed text-sm">
+                                O PSD Portimão continua nas ruas a ouvir os cidadãos. A nossa política faz-se com as pessoas.
+                            </p>
+                            <div class="mt-4 pt-4 border-t border-gray-50 flex items-center text-gray-400 text-[11px]">
+                                <i class="far fa-calendar-alt mr-2"></i> Abril 2026
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <hr class="mb-16 border-gray-200">
+
+            <section id="comissao" class="mb-16">
+                <h2 class="text-3xl font-bold border-l-8 border-[#F68B1F] pl-4 mb-2 uppercase tracking-tight">Comissão Política</h2>
+                <p class="text-gray-500 text-sm mb-8 italic">Eleitos em 28 de fevereiro de 2026</p>
+
+                <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 mb-8 flex flex-col sm:flex-row items-center gap-6">
+                    <div class="w-24 h-24 bg-orange-100 rounded-full flex items-center justify-center text-[#F68B1F]">
+                        <i class="fas fa-user-tie text-4xl"></i>
+                    </div>
+                    <div class="text-center sm:text-left">
+                        <span class="bg-orange-100 text-[#F68B1F] text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest">Presidente</span>
+                        <h3 class="text-xl font-extrabold text-gray-900 mt-2">Maria Alexandra Martins Rodrigues Evangelista</h3>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8 text-sm">
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-blue-800">
+                        <p class="text-[10px] font-bold text-blue-800 uppercase">Vice-Presidente</p>
+                        <p class="font-bold">Ricardo Jorge Silva Viana</p>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg border-l-4 border-blue-800">
+                        <p class="text-[10px] font-bold text-blue-800 uppercase">Vice-Presidente</p>
+                        <p class="font-bold">Maria Isabel Mendes Madeira da Costa</p>
+                    </div>
+                    <div class="p-4 border-b border-gray-100">
+                        <p class="text-[10px] uppercase font-bold text-gray-400 tracking-wider">Secretário</p>
+                        <p class="font-semibold">Gonçalo Amaro Camacho</p>
+                    </div>
+                    <div class="p-4 border-b border-gray-100">
+                        <p class="text-[10px] uppercase font-bold text-gray-400 tracking-wider">Tesoureiro</p>
+                        <p class="font-semibold">Inês Mendonça Rosado</p>
+                    </div>
+                </div>
+
+                <div class="mb-12">
+                    <p class="text-[10px] uppercase font-bold text-gray-400 tracking-wider mb-4 border-b pb-2">Vogais</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 text-sm text-gray-600">
+                        <p>• Carmen Cristina B. C. Esteves</p>
+                        <p>• Ana Carolina R. da Purificação</p>
+                        <p>• Carlos Alberto da C. Bicheiro</p>
+                        <p>• Ricardo Samuel L. P. de Oliveira</p>
+                        <p>• Pedro Miguel P. da S. M. Figueiredo</p>
+                        <p>• Natalino António Gomes Alves</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="assembleia" class="mb-12">
+                <h2 class="text-2xl font-bold text-blue-900 mb-6 flex items-center">
+                    <i class="fas fa-users-rectangle mr-3"></i> Mesa da Assembleia
+                </h2>
+                <div class="bg-blue-50 p-6 rounded-xl border border-blue-100 grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div>
+                        <p class="text-[10px] font-bold text-blue-400 uppercase tracking-widest tracking-widest">Presidente</p>
+                        <p class="font-bold text-blue-900">João Gabriel Monteiro Rosado</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold text-blue-400 uppercase tracking-widest">Vice-Presidente</p>
+                        <p class="font-semibold">Nuno Manuel G. de Campos Inácio</p>
+                    </div>
+                    <div>
+                        <p class="text-[10px] font-bold text-blue-400 uppercase tracking-widest">Secretário</p>
+                        <p class="font-semibold text-xs leading-tight">Maria Elisa da C. M. G. Silvestre</p>
+                    </div>
+                    <div class="md:col-span-3 pt-4 border-t border-blue-200 text-xs text-blue-700">
+                        <strong>Suplente:</strong> Manuel Caetano Leda
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <aside class="lg:w-1/3 space-y-8">
+            <div class="bg-white p-6 rounded-xl shadow-lg border-t-4 border-blue-900 sticky top-24">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-xl font-bold text-blue-900 italic">Atualidade Local</h3>
+                    <span class="bg-green-100 text-green-800 text-[9px] px-2 py-1 rounded font-bold uppercase animate-pulse">Live</span>
+                </div>
+                <div id="rss-feed" class="space-y-6 text-sm">
+                    <p class="text-xs text-gray-400">A procurar notícias em Portimão...</p>
+                </div>
+            </div>
+
+            <a href="https://www.psd.pt/pt/povo-livre" target="_blank" class="block bg-blue-900 text-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition group relative overflow-hidden">
+                <div class="relative z-10">
+                    <h3 class="text-2xl font-black italic tracking-tighter">POVO LIVRE</h3>
+                    <p class="text-[10px] text-blue-100 mt-2">Jornal Oficial do PSD</p>
+                </div>
+                <i class="fas fa-newspaper absolute -right-4 -bottom-4 text-white/5 text-7xl rotate-12"></i>
+            </a>
+        </aside>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white py-12 border-t-8 border-[#F68B1F] text-center">
+        <div class="bg-gray-800/50 inline-block px-6 py-2 rounded-full mb-4">
+            <p class="text-[10px] text-gray-400 uppercase tracking-widest">
+                Página atualizada em: <span id="data-update" class="font-bold text-orange-400">---</span>
+            </p>
+        </div>
+        <p class="text-gray-500 text-[10px]">&copy; 2026 PSD Portimão. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        async function carregarFeeds() {
+            const FEEDS = ['https://www.barlavento.pt/feed', 'https://portimaojornal.pt/feed', 'https://www.sulinformacao.pt/feed'];
+            const feedContainer = document.getElementById('rss-feed');
+            let todasNoticias = [];
+            try {
+                const promises = FEEDS.map(url => fetch(`https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(url)}`).then(res => res.json()));
+                const resultados = await Promise.all(promises);
+                resultados.forEach(data => {
+                    if (data.status === 'ok') {
+                        data.items.forEach(item => {
+                            todasNoticias.push({
+                                title: item.title, link: item.link, pubDate: new Date(item.pubDate),
+                                fonte: item.link.includes('barlavento') ? 'Barlavento' : item.link.includes('portimaojornal') ? 'Portimão Jornal' : 'Sul Informação'
+                            });
+                        });
+                    }
+                });
+                todasNoticias.sort((a, b) => b.pubDate - a.pubDate);
+                if (todasNoticias.length > 0) {
+                    feedContainer.innerHTML = '';
+                    todasNoticias.slice(0, 8).forEach(item => {
+                        const article = document.createElement('article');
+                        article.className = 'border-b border-gray-50 pb-4 last:border-0 hover:bg-gray-50 transition p-1 rounded';
+                        article.innerHTML = `
+                            <div class="flex justify-between text-[9px] font-bold uppercase mb-1">
+                                <span class="text-[#F68B1F]">${item.fonte}</span>
+                                <span class="text-gray-400">${item.pubDate.toLocaleDateString('pt-PT', {day:'2-digit', month:'short'})}</span>
+                            </div>
+                            <a href="${item.link}" target="_blank" class="font-bold hover:text-blue-700 leading-tight">${item.title}</a>`;
+                        feedContainer.appendChild(article);
+                    });
+                }
+            } catch (e) { feedContainer.innerHTML = '<p class="text-xs text-red-500">Erro ao carregar feeds regionais.</p>'; }
+        }
+
+        document.getElementById('data-update').textContent = new Date(document.lastModified).toLocaleDateString('pt-PT', {
+            day: '2-digit', month: 'long', year: 'numeric', hour: '2-digit', minute: '2-digit'
+        });
+        carregarFeeds();
+    </script>
+</body>
+</html>
